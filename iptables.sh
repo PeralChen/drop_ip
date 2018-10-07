@@ -2,6 +2,7 @@
 echo -e "\033[32m 屏蔽所有投诉及蜜罐IP \033[0m"
 echo -e "\033[32m IP来源:Pirate_Vida \033[0m"
 echo -e "\033[32m 脚本地址 https://github.com/PeralChen/drop_ip \033[0m"
+echo -e "\033[31m 本脚本不适用于欧洲，如出现任何问题与本人无关. \033[0m"
 which iptables > /dev/null 2>&1
 if [ $? == 0 ]; then
     echo -e "\033[32m iptables已安装 \033[0m"
